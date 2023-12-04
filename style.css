@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  font-size: 150px;
+  background: linear-gradient(
+    270deg, #3f5efb, #fc466b
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  div {
+  align-content: center;
+  display: inline-block;
+  border: 2px dotted none;
+  background: none;
+  margin: 10px;
+  width: 300px; height: 180px;
+  padding: 4%;
+}
+button {
+  height: 50px;
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 1000ms ease;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-40px);
+		transform: translateY(-40px);
+	}
+
+	80% {
+		transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+}
+button:hover {
+	animation: bounce 1.5s;
+}
+h2 {
+  font-family: fantasy;
+  font-size: 50px;
+}
+h3 {
+  font-family: serif;
+  font-size: 30px;
+}
+p {
+  font-family: Comic Sans MS;
+  font-size: 15px;
+
+
+}

@@ -1,0 +1,17 @@
+.scale {
+ transition: 1s;
+}
+.scale:hover {
+ transform: scale(1.5);
+}
+.column {
+float: left;
+
+width: 30%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
